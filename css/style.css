@@ -1,19 +1,64 @@
-.container {
-    display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
-    grid-template-rows: auto;
-    grid-template-areas: 
-      "header header header header"
-      "main main main main"
-      "footer footer footer footer";
-  }
 
-.header{
-    grid-area: header;
-    background-color: black;
-    color: #fff;
-    padding: 1em;
-    display: flex; 
-    justify-content: space-between; 
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  font-family: jazz-LET,fantasy;
+  padding: 20px;
+  display : flex;
+  justify-content: flex-end;
+}
+
+.main {
+  background-color: whitesmoke;
+  padding: 20px;
+  display : flex;
+}
+
+.footer {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  font-family: andale mono,monospace;
+}
+
+.dao{
+  border: 2px solid black;
+  width: 50%;
+}
+
+.mo{
+  border: 2px solid black;
+  width: 50%;
+}
+.logo{
+  margin-right: 900px;
+}
+.anime{
+  margin-right: 30px;
+}
+.home{
+  margin-right : 30px;
+}
+.contact{
+  margin-right : 30px;
+}
+.about{
+  margin-right : 30px;
+}
+.music{
+  margin-right : 30px;
+}
+
+a:link{
+  text-decoration: none;
+  
 }
 
