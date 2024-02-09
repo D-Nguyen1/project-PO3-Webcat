@@ -7,19 +7,20 @@
 }
 
 .header {
+  box-shadow: 10px 10px 5px #4d4848;
   background-color: black;
   color: white;
   font-size: 25px;
   font-family: jazz-LET,fantasy;
   padding: 20px;
-  display : flex;
+  display: flex;
   justify-content: flex-end;
 }
 
 .main {
-  background-color: whitesmoke;
+  background-color: #4d4848;
   padding: 20px;
-  display : flex;
+  display: flex;
 }
 
 .footer {
@@ -29,9 +30,18 @@
   font-family: andale mono,monospace;
 }
 
-.dao{
+.dao {
   border: 2px solid black;
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dao img {
+  object-fit: cover;
+  
+  
 }
 
 .mo{
@@ -42,23 +52,42 @@
   margin-right: 900px;
 }
 .anime{
+  color: white;
   margin-right: 30px;
 }
 .home{
+  color: white;
   margin-right : 30px;
 }
 .contact{
+  color: white;
   margin-right : 30px;
 }
 .about{
+  color: white;
   margin-right : 30px;
 }
 .music{
+  color: white;
   margin-right : 30px;
 }
 
-a:link{
+a:link {
+  color: white;
   text-decoration: none;
-  
 }
 
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+}
