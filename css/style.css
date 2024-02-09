@@ -1,4 +1,6 @@
-
+body{
+  margin: 0;
+}
 .container {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -6,9 +8,10 @@
   min-height: 100vh;
 }
 
+
 .header {
   box-shadow: 10px 10px 5px #4d4848;
-  background-color: black;
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
   color: white;
   font-size: 25px;
   font-family: jazz-LET,fantasy;
@@ -16,15 +19,26 @@
   display: flex;
   justify-content: flex-end;
 }
-
+.dao-button{
+  height: 100px;
+  width: 350px;
+  background: linear-gradient(109.6deg, rgb(255, 219, 47) 11.2%, rgb(244, 253, 0) 100.2%);
+  color: white;
+  font-size: 50px;
+  font-family: jazz-LET,fantasy;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .main {
-  background-color: #4d4848;
+  background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
   padding: 20px;
   display: flex;
 }
 
 .footer {
-  background-color: black;
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
   padding: 20px;
   color: white;
   font-family: andale mono,monospace;
@@ -34,19 +48,17 @@
   border: 2px solid black;
   width: 50%;
   display: flex;
-  justify-content: center;
+  height: 600px;
+  border-radius: 10px 0 0 10px;
+  flex-direction: column;
   align-items: center;
-}
-
-.dao img {
-  object-fit: cover;
-  
+  justify-content: center;
   
 }
-
 .mo{
   border: 2px solid black;
   width: 50%;
+  height: 600px;
 }
 .logo{
   margin-right: 900px;
