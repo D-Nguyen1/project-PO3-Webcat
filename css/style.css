@@ -17,7 +17,8 @@ body{
   font-family: jazz-LET,fantasy;
   padding: 20px;
   display: flex;
-  justify-content: flex-end;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 .dao-button{
   height: 100px;
@@ -30,6 +31,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
 }
 .mo-button{
   height: 100px;
@@ -55,6 +57,12 @@ body{
   color: white;
   font-family: andale mono,monospace;
 }
+.text{
+  font-size: 40px;
+  font-family: jazz-LET,fantasy;  
+  padding: 50px;
+  text-align: center;
+}
 
 .dao {
   border: 2px solid black;
@@ -64,10 +72,8 @@ body{
   border-radius: 10px 0 0 10px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-image: url(assets/musicbackground.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  justify-content: space-around;
+  background-image: url("../assets/musicbackground.jpg")
 }
 .mo{
   border: 2px solid black;
@@ -82,27 +88,10 @@ body{
 .logo{
   margin-right: 900px;
 }
-.anime{
+.nav{
   color: white;
-  margin-right: 30px;
-}
-.home{
-  color: white;
-  margin-right : 30px;
-}
-.contact{
-  color: white;
-  margin-right : 30px;
-}
-.about{
-  color: white;
-  margin-right : 30px;
-}
-.music{
-  color: white;
-  margin-right : 30px;
-}
 
+}
 a:link {
   color: white;
   text-decoration: none;
@@ -123,3 +112,12 @@ a:active {
   text-decoration: none;
 }
 
+
+
+@media screen and (min-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
