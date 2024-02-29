@@ -1,83 +1,101 @@
-body{
-    margin: 0;
-  }
+body {
+  margin: 0;
+}
 
-  .aboutus {
-    
-  }
+.boxdiv1 {
+  height: 100;
+  width: 100;
+  background-color: lightseagreen;
 
-  .container {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 1fr;
-    min-height: 100vh;
-  }
+}
+
+.boxdiv2 {
+  height: 100;
+  width: 100;
+  background-color: lightseagreen;
+}
+
+.boxdiv3 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 55px;
   
-  .header {
-    box-shadow: 10px 10px 5px #4d4848;
-    background: linear-gradient(to right, #868f96 0%, #596164 100%);
-    color: white;
-    font-size: 25px;
-    font-family: jazz-LET,fantasy;
-    padding: 20px;
-    display: flex;
-    justify-content: flex-end;
-  }
   
-  .main {
-    background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
-    padding: 20px;
-    display: flex;
-  }
-  
-  .footer {
-    background: linear-gradient(to right, #868f96 0%, #596164 100%);
-    padding: 20px;
-    color: white;
-    font-family: andale mono,monospace;
-  }
-  
-  .logo{
-    margin-right: 900px;
-  }
-  .anime{
-    color: white;
-    margin-right: 30px;
-  }
-  .home{
-    color: white;
-    margin-right : 30px;
-  }
-  .contact{
-    color: white;
-    margin-right : 30px;
-  }
-  .about{
-    color: white;
-    margin-right : 30px;
-  }
-  .music{
-    color: white;
-    margin-right : 30px;
-  }
-  
-  a:link {
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: white;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
-  
-  /* selected link */
-  a:active {
-    text-decoration: none;
-  }
-  
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+}
+
+.header {
+  box-shadow: 10px 10px 5px #4d4848;
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+  color: white;
+  font-size: 25px;
+  font-family: jazz-LET, fantasy;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main {
+  background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);  
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.footer {
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+  padding: 20px;
+  color: white;
+  font-family: andale mono, monospace;
+}
+
+.logo {
+  margin-right: 900px;
+}
+.anime {
+  color: white;
+  margin-right: 30px;
+}
+.home {
+  color: white;
+  margin-right: 30px;
+}
+.contact {
+  color: white;
+  margin-right: 30px;
+}
+.about {
+  color: white;
+  margin-right: 30px;
+}
+.music {
+  color: white;
+  margin-right: 30px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+}
