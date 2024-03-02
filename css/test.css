@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition: width 0.5s, height 0.5s;
+}
+
+.box {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid red;
+    position: absolute;
+    top: calc(50% + 50px); /* Adjust this value to position the box relative to the circle */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transition: width 0.5s, height 0.5s;
+    opacity: 0;
+}
+
+.container:hover .box {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
