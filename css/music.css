@@ -22,12 +22,8 @@ header {
 }
 
 main {
-  background-color: antiquewhite;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 
@@ -39,8 +35,8 @@ main {
   font-size: 51px;
   letter-spacing: 2px;
   word-spacing: 1px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(26, 26, 26);
+  color: black;
+  background-color: white;
 }
 .genre-container {
   display: flex;
@@ -56,9 +52,10 @@ main {
   border: 1px solid black;
   border-radius: 50%;
   background-color: #f0f0f0;
-  font-size: 20px;
+  font-size: 50px;
   font-family: jazz-LET, fantasy;
   margin-right: 20px; /* Added margin-right property to create a gap between genre divs */
+  padding: 50px;
 }
 
 footer {
@@ -91,4 +88,10 @@ a:hover {
 
 a:active {
   text-decoration: none;
+}
+
+.genre :hover{
+  background-color: #f0f0f0;
+  color: #f0f0f0;
+  transition: 0.5s;
 }
