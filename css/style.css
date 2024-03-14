@@ -84,6 +84,8 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url("../assets/wallpapersden.com_anime-girl-looking-for-sunset_1952x1120.jpg");
+  background-size: 1120px; 
 }
 .logo{
   margin-right: 900px;

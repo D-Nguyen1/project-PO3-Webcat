@@ -1,15 +1,15 @@
 [
     {
       "id": 1,
-      "name": "One Piece",
+      "name": "Dragon Ball",
       "description": "ONE PIECE is a legendary high-seas quest unlike any other. Luffy is a young adventurer who has longed for a life of freedom ever since he can remember. He sets off from his small village on a perilous journey to find the legendary fabled treasure, ONE PIECE, to become King of the Pirates!",
-      "animators": "Toei",
-      "creator": "akira toriama",
+      "animators": "Toei Animation",
+      "creator": "Akira Toriyama",
       "date": "1999",
       "character": "Monkey D Luffy",
       "category": "action, adventure, fantasy.",
       "episodes": 1094,
       "movie_numbers": 15,
-      "imageURL": "https://m.media-amazon.com/images/I/718MHBXxWDL.jpg"
+      "imageURL": "https://www.deviantart.com/bagus-ao/art/Dragon-Ball-Legends-Son-Goku-836832697"
     }
   ]
