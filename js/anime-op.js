@@ -1,2 +1,2 @@
 console.log("test loading...");
-const cartContainer= document.querySelector(".cart-container");
+const animeContainer= document.querySelector(".cart-container");
