@@ -1,7 +1,7 @@
 console.log("test loading...");
-const animeContainer= document.querySelector(".anime-container");
+const animeContainer= document.querySelector(".animeNarutocontainer");
 
-fetch(" ")
+fetch("")
   .then((data) => data.json())
   .then((myjsondata) => showCards(myjsondata));
  

@@ -1,31 +1,31 @@
 console.log("test loading...");
-const animeContainer= document.querySelector(".anime-container");
+const animeContainer= document.querySelector(".animeDBContainer");
 
-fetch(" ")
+fetch("http://localhost:3000/data/db")
   .then((data) => data.json())
   .then((myjsondata) => showCards(myjsondata));
  
-function showCards(animeSeries) {
-  console.log(animeSeries);
+function showCards(dbAnime) {
+  console.log(dbAnime);
   let htmlCode = "";
-  for (let i = 0; i < animeSeries.length; i++) {
-    const animeSerie = animeSeries[i];
-    htmlCode += createCard(animeSerie);
+  for (let i = 0; i < dbAnime.length; i++) {
+    const dragonBall = dbAnime[i];
+    htmlCode += createCard(dragonBall);
   }
-  cardContainer.innerHTML = htmlCode;
+  animeContainer.innerHTML = htmlCode;
 }
  
-function createCard(animeSerie) {
+function createCard(dragonBall) {
   const card = `
     <div class="card">
-      <img src="${animeSerie.imageURL}">
+      <img src="${dragonBall.imageURL}">
       <div class="card-content">
-        <h1 class="card-title">${animeSerie.name}</h1>
-        <p class="card-description">${animeSerie.description}</p>
-        <p class="card-details">${animeSerie.creator}<br>
-        ${animeSerie.character}<br>
-        ${animeSerie.date}<br>
-        ${animeSerie.category}<br>
+        <h1 class="card-title">${dragonBall.name}</h1>
+        <p class="card-description">${dragonBall.description}</p>
+        <p class="card-details">${dragonBall.creator}<br>
+        ${dragonBall.character}<br>
+        ${dragonBall.date}<br>
+        ${dragonBall.category}<br>
         </p>
       </div>
     </div>
