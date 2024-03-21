@@ -1,7 +1,7 @@
 console.log("test loading...");
 const animeContainer= document.querySelector(".anime-container");
 
-fetch("http://localhost:3000/data/anime-series")
+fetch(" ")
   .then((data) => data.json())
   .then((myjsondata) => showCards(myjsondata));
  
