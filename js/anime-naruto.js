@@ -1,31 +1,31 @@
 console.log("test loading...");
-const animeContainer= document.querySelector(".animeNarutocontainer");
+const anime2Container= document.querySelector(".narutoContainer");
 
-fetch("")
+fetch("http://localhost:3000/data/naruto")
   .then((data) => data.json())
   .then((myjsondata) => showCards(myjsondata));
  
-function showCards(animeSeries) {
-  console.log(animeSeries);
+function showCards(narutoAnime) {
+  console.log(narutoAnime);
   let htmlCode = "";
-  for (let i = 0; i < animeSeries.length; i++) {
-    const animeSerie = animeSeries[i];
-    htmlCode += createCard(animeSerie);
+  for (let i = 0; i < narutoAnime.length; i++) {
+    const naruto = narutoAnime[i];
+    htmlCode += createCard(naruto);
   }
-  cardContainer.innerHTML = htmlCode;
+  anime2Container.innerHTML = htmlCode;
 }
  
-function createCard(animeSerie) {
+function createCard(naruto) {
   const card = `
     <div class="card">
-      <img src="${animeSerie.imageURL}">
+      <img src="${naruto.imageURL}">
       <div class="card-content">
-        <h1 class="card-title">${animeSerie.name}</h1>
-        <p class="card-description">${animeSerie.description}</p>
-        <p class="card-details">${animeSerie.creator}<br>
-        ${animeSerie.character}<br>
-        ${animeSerie.date}<br>
-        ${animeSerie.category}<br>
+        <h1 class="card-title">${naruto.name}</h1>
+        <p class="card-description">${naruto.description}</p>
+        <p class="card-details">${naruto.creator}<br>
+        ${naruto.character}<br>
+        ${naruto.date}<br>
+        ${naruto.category}<br>
         </p>
       </div>
     </div>

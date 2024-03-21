@@ -1,7 +1,7 @@
 console.log("test loading...");
-const animeContainer= document.querySelector(".animeOPcontainer");
+const anime3Container= document.querySelector(".opContainer");
 
-fetch(" ")
+fetch("http://localhost:3000/data/onepiece")
   .then((data) => data.json())
   .then((myjsondata) => showCards(myjsondata));
  
@@ -9,23 +9,23 @@ function showCards(animeSeries) {
   console.log(animeSeries);
   let htmlCode = "";
   for (let i = 0; i < animeSeries.length; i++) {
-    const animeSerie = animeSeries[i];
-    htmlCode += createCard(animeSerie);
+    const onePiece = animeSeries[i];
+    htmlCode += createCard(onePiece);
   }
-  cardContainer.innerHTML = htmlCode;
+  anime3Container.innerHTML = htmlCode;
 }
  
-function createCard(animeSerie) {
+function createCard(onePiece) {
   const card = `
     <div class="card">
-      <img src="${animeSerie.imageURL}">
+      <img src="${onePiece.imageURL}">
       <div class="card-content">
-        <h1 class="card-title">${animeSerie.name}</h1>
-        <p class="card-description">${animeSerie.description}</p>
-        <p class="card-details">${animeSerie.creator}<br>
-        ${animeSerie.character}<br>
-        ${animeSerie.date}<br>
-        ${animeSerie.category}<br>
+        <h1 class="card-title">${onePiece.name}</h1>
+        <p class="card-description">${onePiece.description}</p>
+        <p class="card-details">${onePiece.creator}<br>
+        ${onePiece.character}<br>
+        ${onePiece.date}<br>
+        ${onePiece.category}<br>
         </p>
       </div>
     </div>

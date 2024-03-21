@@ -1,5 +1,5 @@
 console.log("test loading...");
-const animeContainer= document.querySelector(".animeDBContainer");
+const animeContainer= document.querySelector(".dragonballContainer");
 
 fetch("http://localhost:3000/data/db")
   .then((data) => data.json())

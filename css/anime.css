@@ -1,114 +1,128 @@
 body {
-    margin: 0;
-  }
-  
-  .animeContainer {
+  margin: 0;
+}
 
-  }
+.Animecards {
+  display: grid;
+  position: center;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
 
-  .dragonball {
+.cardNaruto {
+  background-color: purple;
+  height: 200px;
+  width: 200px;
+}
 
-  }
+.cardDB {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+}
 
-  .onepiece {
+.cardOnepiece {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
 
-  }
 
-  .naruto {
-    
-  }
 
-  .container {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 1fr;
-    min-height: 100vh;
-  }
-  
-  header {
-    box-shadow: 10px 10px 5px #4d4848;
-    background: linear-gradient(to right, #868f96 0%, #596164 100%);
-    color: white;
-    font-size: 25px;
-    font-family: jazz-LET, fantasy;
-    padding: 20px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  
-  main {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    background-color: #30302f;
-  }
-  @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
-  
-  .welcome-text{
-    font-family: "Rock Salt", cursive;
-    font-style: italic;
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 51px;
-    letter-spacing: 2px;
-    word-spacing: 1px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .genre-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap; /* Added flex-wrap property to wrap items */
-    flex: 1;
-  }
-  
-  .genre {
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 50%;
-    font-size: 50px;
-    font-family: jazz-LET, fantasy;
-    margin-right: 20px; /* Added margin-right property to create a gap between genre divs */
-    padding: 50px;
-  
-  }
-  
-  footer {
-    background: linear-gradient(to right, #868f96 0%, #596164 100%);
-    padding: 20px;
-    color: white;
-    font-family: andale mono, monospace;
-  }
-  
-  .logo {
-    margin-right: 900px;
-  }
-  
-  .nav {
-    color: white;
-  }
-  
-  a:link {
-    color: white;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: white;
-  }
-  
-  a:hover {
-    color: hotpink;
-  }
-  
-  a:active {
-    text-decoration: none;
-  }
-  
-  button :hover{
-  
-  }
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+}
+
+header {
+  box-shadow: 10px 10px 5px #4d4848;
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+  color: white;
+  font-size: 25px;
+  font-family: jazz-LET, fantasy;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-color: #30302f;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+.welcome-text {
+  font-family: "Rock Salt", cursive;
+  font-style: italic;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 51px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.genre-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* Added flex-wrap property to wrap items */
+  flex: 1;
+}
+
+.genre {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 50px;
+  font-family: jazz-LET, fantasy;
+  margin-right: 20px;
+  /* Added margin-right property to create a gap between genre divs */
+  padding: 50px;
+
+}
+
+footer {
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+  padding: 20px;
+  color: white;
+  font-family: andale mono, monospace;
+}
+
+.logo {
+  margin-right: 900px;
+}
+
+.nav {
+  color: white;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+button :hover {}
