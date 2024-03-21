@@ -11,6 +11,55 @@
     "episodes": 1094,
     "movie_numbers": 15,
     "imageURL": "https://wallpapercave.com/w/wp10688691"
-  }
-]
+  },
 
+
+{
+  "id": 1,
+  "name": "One Piece Games",
+  "description": " ",
+  "Game studio": " ",
+  "date": "1999",
+  "character": "Monkey D Luffy",
+  "category": "action, adventure, fantasy.",
+  "Games": "One piece pirate warriors", 
+  "imageURL": "https://wallpapers.com/images/featured/one-piece-c0pujiakubq5rwas.jpg"
+
+},
+
+
+
+
+
+{
+  "id": 1,
+  "name": "One Piece Series",
+  "description": "ONE PIECE is a legendary high-seas quest unlike any other. Luffy is a young adventurer who has longed for a life of freedom ever since he can remember. He sets off from his small village on a perilous journey to find the legendary fabled treasure, ONE PIECE, to become King of the Pirates!",
+  "Animation Studio": "Toei Animation",
+  "creator": "Oda",
+  "date": "1999",
+  "Main_character": "Monkey D Luffy",
+  "Side_Characters": "Zoro, Nami, Usop, Sanji",
+  "category": "action, adventure, fantasy.",
+  "episodes": 1094,
+  "Arcs": 15,
+  "imageURL": "https://wallpapers.com/images/featured/one-piece-c0pujiakubq5rwas.jpg"
+},
+
+
+
+
+{
+  "id": 1,
+  "name": "One Piece Movies",
+  "description": "The One Piece Movies are theatrical films produced and released by Toei Animation. While generally made with the same cast and crew as the TV anime, they tend to boast much higher production values and animation quality.",
+  "Animation Studio": "Toei Animation",
+  "creator": "Oda",
+  "date": "1999",
+  "character": "Monkey D Luffy",
+  "category": "action, adventure, fantasy.",
+  "Movies": "One piece Red", 
+  "imageURL": "https://wallpapers.com/images/featured/one-piece-c0pujiakubq5rwas.jpg"
+}
+
+]
