@@ -36,17 +36,22 @@ body{
 .mo-button{
   height: 100px;
   width: 350px;
-  background: #8109b7;
-  color: white;
+  background: rgb(145, 92, 182);
+  color: rgba(255,255,255, 0.8);
   font-size: 50px;
   font-family: jazz-LET,fantasy;
-  padding: 20px;
+  padding: 15px 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: solid black;
   border-radius: 15px;
   position: top;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 10px 5px #ad48e0,
+              0 0 20px 7px #ebecca,
+              0 0 25px 20px #8a2be2,
+              0 0 30px 25px #ff1493;
 }
 .main {
   background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
@@ -67,12 +72,26 @@ body{
   text-align: center;
 }
 
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
 .textMo{
 font-size: 40px;
-font-family: Arial, Helvetica, sans-serif;
+font-family: jazz-LET, fantasy;
 padding: 50px;
-text-align: center;
-color: white;
+text-align: justify;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+color: purple;
+vertical-align: text-bottom;
 }
 
 .dao {
@@ -91,11 +110,11 @@ color: white;
   width: 50%;
   display: flex;
   height: 600px;
-  border-radius: 0 10px 10px 0;
+  border-radius: 10px 0 0 10px ;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-image: url("../assets/illustrate-tokyo-city-by-night-with-anime-mangastyle-drawings-featuring-city-views-vibrant-purple-neon-lights-generative-ai_379823-7278.avif");
+  justify-content: space-around;
+  background-image: url("../assets/Anime.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
