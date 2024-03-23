@@ -2,30 +2,63 @@ body {
   margin: 0;
 }
 
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.card > img{
+  width: 200px;
+}
+
+.dragonballContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: #4d4848;
+  gap:10px;
+}
+
+.narutoContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: #4d4848;
+  gap:10px;
+}
+
+.opContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: #4d4848;
+  gap:10px;
+}
+
 .Animecards {
   display: grid;
-  position: center;
-  width: 200px;
-  height: 200px;
-  background-color: white;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: #4d4848;
+  gap:10px;
 }
 
 .cardNaruto {
   background-color: purple;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
 .cardDB {
   background-color: white;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
 .cardOnepiece {
   background-color: blue;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 
 
@@ -124,5 +157,3 @@ a:hover {
 a:active {
   text-decoration: none;
 }
-
-button :hover {}
