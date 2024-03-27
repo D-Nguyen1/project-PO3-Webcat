@@ -1,29 +1,15 @@
 [
-  {
-    "id": 1,
-    "name": "Naruto",
-    "description": "ONE PIECE is a legendary high-seas quest unlike any other. Luffy is a young adventurer who has longed for a life of freedom ever since he can remember. He sets off from his small village on a perilous journey to find the legendary fabled treasure, ONE PIECE, to become King of the Pirates!",
-    "animators": "Toei",
-    "creator": "akira toriama",
-    "date": "1999",
-    "character": "Monkey D Luffy",
-    "category": "action, adventure, fantasy.",
-    "episodes": 1094,
-    "movie_numbers": 15,
-    "imageURL": "https://wallpapercave.com/w/wp10688691"
-  },
-
 
 {
   "id": 1,
-  "name": "One Piece Games",
+  "name": "Naruto Games",
   "description": " ",
   "Game studio": " ",
-  "date": "1999",
-  "character": "Monkey D Luffy",
+  "date": " ",
+  "character": "Naruto Uzumaki",
   "category": "action, adventure, fantasy.",
-  "Games": "One piece pirate warriors", 
-  "imageURL": "https://wallpapers.com/images/featured/one-piece-c0pujiakubq5rwas.jpg"
+  "Games": " ", 
+  "imageURL": "https://i.pinimg.com/564x/42/9a/64/429a64eccb8565a5800b02f5252660e6.jpg"
 
 },
 
@@ -33,17 +19,17 @@
 
 {
   "id": 1,
-  "name": "One Piece Series",
-  "description": "ONE PIECE is a legendary high-seas quest unlike any other. Luffy is a young adventurer who has longed for a life of freedom ever since he can remember. He sets off from his small village on a perilous journey to find the legendary fabled treasure, ONE PIECE, to become King of the Pirates!",
-  "Animation Studio": "Toei Animation",
+  "name": "Naruto Series",
+  "description": " ",
+  "Animation Studio": " ",
   "creator": "Oda",
   "date": "1999",
-  "Main_character": "Monkey D Luffy",
-  "Side_Characters": "Zoro, Nami, Usop, Sanji",
+  "Main_character": "Naruto Uzumaki",
+  "Side_Characters": "Sasuke, ",
   "category": "action, adventure, fantasy.",
-  "episodes": 1094,
-  "Arcs": 15,
-  "imageURL": "https://wallpapers.com/images/featured/one-piece-c0pujiakubq5rwas.jpg"
+  "episodes": 99,
+  "Arcs": 99,
+  "imageURL": "https://i.pinimg.com/564x/84/e8/61/84e861ecef7dcc7c81e43ceef58d6aed.jpg"
 },
 
 
@@ -51,15 +37,15 @@
 
 {
   "id": 1,
-  "name": "One Piece Movies",
-  "description": "The One Piece Movies are theatrical films produced and released by Toei Animation. While generally made with the same cast and crew as the TV anime, they tend to boast much higher production values and animation quality.",
-  "Animation Studio": "Toei Animation",
-  "creator": "Oda",
-  "date": "1999",
-  "character": "Monkey D Luffy",
+  "name": "Naruto Movies",
+  "description": " ",
+  "Animation Studio": " ",
+  "creator": "Kishimoto",
+  "date": " ",
+  "character": "Naruto Uzumaki",
   "category": "action, adventure, fantasy.",
-  "Movies": "One piece Red", 
-  "imageURL": "https://wallpapers.com/images/featured/one-piece-c0pujiakubq5rwas.jpg"
+  "Movies": " ", 
+  "imageURL": "https://i.pinimg.com/736x/92/d0/5b/92d05b5357a1537271341442d2d852b0.jpg"
 }
 
 ]

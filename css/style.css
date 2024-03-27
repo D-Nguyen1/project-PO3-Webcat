@@ -1,13 +1,13 @@
 body{
   margin: 0;
 }
+
 .container {
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
   min-height: 100vh;
 }
-
 
 .header {
   box-shadow: 10px 10px 5px #4d4848;
@@ -60,7 +60,7 @@ body{
 }
 
 .footer {
-  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+  background: linear-gradient(to right, #802cc1 0%, #a729d5 100%);
   padding: 20px;
   color: white;
   font-family: andale mono,monospace;
@@ -83,7 +83,7 @@ animation: glow 1s ease-in-out infinite alternate;
 color: black;
 }
 
-@-webkit-keyframes glow {
+@keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
@@ -91,6 +91,7 @@ color: black;
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
+
 
 .dao {
   border: 2px solid black;
@@ -120,6 +121,12 @@ color: black;
 .logo{
   margin-right: 900px;
 }
+
+.header img{
+    width: 100px;
+    height: 100px;
+}
+
 .nav{
   color: white;
 
@@ -146,7 +153,7 @@ a:active {
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 786px) {
   .main {
     display: flex;
     flex-direction: row;

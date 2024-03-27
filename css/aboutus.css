@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+.header img{
+  width: 100px;
+  height: 100px;
+}
+
 .boxdiv1 {
   height: 100;
   width: 100;

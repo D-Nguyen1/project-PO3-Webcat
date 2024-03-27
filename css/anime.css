@@ -1,5 +1,17 @@
 body {
   margin: 0;
+  padding: 0;
+}
+
+.Naruto-button{}
+.OP-button{}
+.DB-button{}
+
+
+.container img{
+  width: 100px;
+  height: auto;
+  
 }
 
 .card{
@@ -43,22 +55,29 @@ body {
   gap:10px;
 }
 
+.Animecards img{
+  width: 200px;
+  height: 200px;
+  position: center;
+}
+
 .cardNaruto {
   background-color: purple;
-  height: 300px;
-  width: 300px;
+  height: 380px;
+  width: 380px;
+
 }
 
 .cardDB {
   background-color: white;
-  height: 300px;
-  width: 300px;
+  height: 380px;
+  width: 380px;
 }
 
 .cardOnepiece {
   background-color: blue;
-  width: 300px;
-  height: 300px;
+  width: 380px;
+  height: 380px;
 }
 
 
